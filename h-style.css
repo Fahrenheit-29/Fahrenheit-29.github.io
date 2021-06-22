@@ -645,8 +645,8 @@ ul {
     }
     .service_title h1 {
         letter-spacing: 2px;
-        text-shadow: 2px 2px wheat;
-        color: black;
+        text-shadow: 2px 2px white;
+        color: maroon;
     }
     #line {
         border-bottom: 2px solid black;
@@ -818,10 +818,10 @@ ul {
     .service_title h1 {
         letter-spacing: 2px;
         text-shadow: 2px 2px wheat;
-        color: black;
+        color: maroon;
     }
     #line {
-        border-bottom: 2px solid black;
+        border: none;
     }
     .rows {
         display: flex;
@@ -836,6 +836,8 @@ ul {
     }
     .services {
         padding: 10px 20px;
+        text-shadow: 2px 2px #202020;
+        color: #F8F8FF;
     }
     .services img {
         display: block;
