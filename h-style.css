@@ -144,7 +144,7 @@ nav ul li a:hover {
 
 .text {
     color: white;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px maroon;
     letter-spacing: 1px;
     text-align: left;
@@ -272,7 +272,7 @@ ul {
     }
     .text {
         color: white;
-        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
         text-shadow: 2px 2px maroon;
         letter-spacing: 1px;
         text-align: left;
@@ -542,7 +542,7 @@ ul {
     }
     .text {
         color: white;
-        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
         text-shadow: 2px 2px maroon;
         letter-spacing: 0px;
         text-align: left;
