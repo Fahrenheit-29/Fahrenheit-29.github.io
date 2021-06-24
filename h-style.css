@@ -813,11 +813,11 @@ ul {
         height: auto;
     }
     .Bg-img h1 {
-        color: black;
+        color: white;
         text-align: center;
         font-size: 1.5rem;
         margin: 45px 0px;
-        text-shadow: 1px 1px wheat;
+        text-shadow: 1px 1px maroon;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: .1rem;
         line-height: 2rem;
