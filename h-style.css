@@ -659,7 +659,7 @@ ul {
         padding: 8px;
     }
     .Bg-img {
-        height: 75vh;
+        height: auto;
     }
     .Bg-img h1 {
         color: black;
