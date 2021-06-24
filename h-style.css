@@ -23,7 +23,7 @@ header {
 .logo {
     width: 37%;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Oswald', sans-serif;
     position: relative;
 }
 
@@ -43,14 +43,14 @@ header {
 }
 
 .content_logo h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-decoration: underline solid whitesmoke;
     margin-left: 10px;
 }
 
 .content_logo_1 {
     margin-top: 20px;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.5px;
 }
 
 .content_logo_1 img {
@@ -122,7 +122,7 @@ nav ul li a:hover {
     font-size: 2.5rem;
     margin-bottom: 10px;
     text-shadow: 2px 2px wheat;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: .1rem;
 }
 
@@ -144,7 +144,7 @@ nav ul li a:hover {
 
 .text {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 2px 2px maroon;
     letter-spacing: 1px;
     text-align: left;
@@ -199,9 +199,8 @@ h4 {
 .rows {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     flex-flow: wrap;
-    text-shadow: 2px 2px wheat;
 }
 
 .column {
@@ -212,7 +211,8 @@ h4 {
 
 .services {
     padding: 10px 20px;
-    color: black;
+    text-shadow: 2px 2px maroon;
+    color: white;
 }
 
 .services img {
@@ -254,7 +254,7 @@ ul {
         font-size: 2.5rem;
         margin-bottom: 10px;
         text-shadow: 2px 2px wheat;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather';
         letter-spacing: .1rem;
     }
     .Bg_image3 {
@@ -272,7 +272,7 @@ ul {
     }
     .text {
         color: white;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', serif;
         text-shadow: 2px 2px maroon;
         letter-spacing: 1px;
         text-align: left;
@@ -306,7 +306,7 @@ ul {
     }
     .service_title {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', sans-serif;
     }
     .service_title h1 {
         letter-spacing: 2px;
@@ -319,9 +319,8 @@ ul {
     .rows {
         display: flex;
         justify-content: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Oswald', sans-serif;
         flex-flow: wrap;
-        text-shadow: 2px 2px wheat;
     }
     .column {
         width: 30%;
@@ -330,7 +329,8 @@ ul {
     }
     .services {
         padding: 10px 20px;
-        color: black;
+        text-shadow: 2px 2px maroon;
+        color: white;
     }
     .services img {
         display: block;
@@ -373,7 +373,7 @@ ul {
         font-size: 2.3rem;
         margin-bottom: 10px;
         text-shadow: 2px 2px wheat;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather';
         letter-spacing: .1rem;
     }
     .Background_serve {
@@ -394,7 +394,7 @@ ul {
     }
     .service_title {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', sans-serif;
     }
     .service_title h1 {
         letter-spacing: 2px;
@@ -407,9 +407,8 @@ ul {
     .rows {
         display: flex;
         justify-content: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Oswald', sans-serif;
         flex-flow: wrap;
-        text-shadow: 2px 2px wheat;
     }
     .column {
         width: 30%;
@@ -418,7 +417,8 @@ ul {
     }
     .services {
         padding: 10px 20px;
-        color: black;
+        text-shadow: 2px 2px maroon;
+        color: white;
     }
     .services img {
         display: block;
@@ -450,7 +450,7 @@ ul {
     .logo {
         width: 42%;
         color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Oswald', sans-serif;
         position: relative;
     }
     .content_logo {
@@ -524,7 +524,7 @@ ul {
         font-size: 2.1rem;
         margin-bottom: 15px;
         text-shadow: 2px 2px wheat;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather';
         letter-spacing: .1rem;
     }
     .Bg_image3 img {
@@ -542,7 +542,7 @@ ul {
     }
     .text {
         color: white;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', serif;
         text-shadow: 2px 2px maroon;
         letter-spacing: 0px;
         text-align: left;
@@ -560,12 +560,12 @@ ul {
     }
     .service_title {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', sans-serif;
     }
     .service_title h1 {
         letter-spacing: 2px;
         text-shadow: 2px 2px wheat;
-        color: maroon;
+        color: black;
     }
     #line {
         border: none;
@@ -573,9 +573,8 @@ ul {
     .rows {
         display: flex;
         justify-content: center;
-        font-family: 'Roboto', serif;
+        font-family: 'Oswald', sans-serif;
         flex-flow: wrap;
-        text-shadow: 2px 2px wheat;
     }
     .column {
         width: 40%;
@@ -584,8 +583,8 @@ ul {
     }
     .services {
         padding: 20px 20px;
-        text-shadow: 2px 2px #202020;
-        color: #F8F8FF;
+        text-shadow: 2px 2px maroon;
+        color: white;
     }
     .services img {
         display: block;
@@ -667,7 +666,7 @@ ul {
         font-size: 2rem;
         margin-bottom: 10px;
         text-shadow: 2px 2px wheat;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', serif;
     }
     .Bg_image3 img {
         height: auto;
@@ -696,12 +695,12 @@ ul {
     }
     .service_title {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', sans-serif;
     }
     .service_title h1 {
         letter-spacing: 2px;
-        text-shadow: 2px 2px white;
-        color: maroon;
+        text-shadow: 2px 2px wheat;
+        color: black;
     }
     #line {
         border-bottom: none;
@@ -710,7 +709,7 @@ ul {
         display: flex;
         flex-wrap: wrap row;
         justify-content: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Oswald', sans-serif;
     }
     .column {
         width: 45%;
@@ -718,8 +717,8 @@ ul {
     }
     .services {
         padding: 10px 2px;
-        text-shadow: 2px 2px #202020;
-        color: #F8F8FF;
+        text-shadow: 2px 2px maroon;
+        color: white;
     }
     .services img {
         display: block;
@@ -818,7 +817,7 @@ ul {
         font-size: 1.5rem;
         margin: 45px 0px;
         text-shadow: 2px 2px wheat;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather';
         letter-spacing: .1rem;
         line-height: 2rem;
     }
@@ -871,12 +870,12 @@ ul {
     }
     .service_title {
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Merriweather', sans-serif;
     }
     .service_title h1 {
         letter-spacing: 2px;
         text-shadow: 2px 2px wheat;
-        color: maroon;
+        color: black;
     }
     #line {
         border: none;
@@ -885,7 +884,7 @@ ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-family: 'Roboto', serif;
+        font-family: 'Oswald', sans-serif;
         flex-flow: wrap column;
     }
     .column {
@@ -894,8 +893,8 @@ ul {
     }
     .services {
         padding: 10px 20px;
-        text-shadow: 2px 2px #202020;
-        color: #F8F8FF;
+        text-shadow: 2px 2px maroon;
+        color: white;
     }
     .services img {
         display: block;
@@ -910,7 +909,7 @@ ul {
         padding: 0px;
     }
     ul {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 2rem;
         list-style-position: unset;
         text-align: center;
