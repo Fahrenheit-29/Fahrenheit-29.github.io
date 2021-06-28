@@ -153,24 +153,8 @@ nav ul li a:hover {
     font-weight: 550;
 }
 
-footer {
-    background-color: #302f2e;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
 
-.content-footer h3,
-h4 {
-    letter-spacing: 2px;
-    margin: 15px 0px;
-    font-family: 'Merriweather', serif;
-    font-size: 1rem;
-}
-
-#content-name {
-    color: rgb(211, 38, 38);
-}
+/*  Service Page2*/
 
 .Background_serve {
     background-image: url("IMG/house.png");
@@ -229,11 +213,87 @@ h4 {
     padding: 10px 0px;
 }
 
-ul {
+.f ul li {
     font-size: 1.2rem;
     line-height: 1.5rem;
     list-style-position: inside;
     list-style-type: none;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #302f2e;
+    color: white;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.First_Branch {
+    width: 35%;
+    order: 1;
+}
+
+.branch1 ul {
+    list-style: none;
+    line-height: 1.7em;
+}
+
+.branch1 ul li {
+    letter-spacing: 1px;
+}
+
+.Second_Branch {
+    width: 35%;
+    order: 2;
+}
+
+.branch2 ul {
+    list-style: none;
+    line-height: 1.7em;
+}
+
+.branch2 ul li {
+    letter-spacing: 1px;
+}
+
+.branch_title {
+    padding: 10px 0px;
+    color: rgb(185, 24, 24);
+}
+
+.Copyright {
+    margin: 10px auto;
+    text-align: center;
+    line-height: 1.2rem;
+    color: grey;
+}
+
+.Copyright .name {
+    color: rgb(185, 24, 24);
+}
+
+.branch1 i {
+    background-color: rgb(185, 24, 24);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 40px;
+    text-align: center;
+}
+
+.branch2 i {
+    background-color: rgb(185, 24, 24);
+    padding: 10px;
+    margin: 5px 10px;
+    text-align: center;
+    width: 40px;
+    height: auto;
 }
 
 @media screen and (min-width: 1025px) {
@@ -279,22 +339,6 @@ ul {
         padding: 10px 20px 0px 0px;
         font-size: 1.4rem;
         font-weight: 550;
-    }
-    footer {
-        background-color: #302f2e;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    .content-footer h3,
-    h4 {
-        letter-spacing: 2px;
-        margin: 15px 0px;
-        font-family: 'Merriweather', serif;
-        font-size: 1rem;
-    }
-    #content-name {
-        color: rgb(211, 38, 38);
     }
     .Background_serve {
         background-image: url("IMG/house.png");
@@ -344,7 +388,7 @@ ul {
         letter-spacing: 2px;
         padding: 10px 0px;
     }
-    ul {
+    .f ul li {
         font-size: 1.5rem;
         line-height: 1.9rem;
         list-style-position: inside;
@@ -432,7 +476,7 @@ ul {
         letter-spacing: 2px;
         padding: 10px 0px;
     }
-    ul {
+    .f ul li {
         font-size: 1.2rem;
         line-height: 1.5rem;
         list-style-position: inside;
@@ -598,11 +642,72 @@ ul {
         letter-spacing: 2px;
         padding: 10px 0px;
     }
-    ul {
+    .f ul li {
         font-size: 1.2rem;
         line-height: 1.4rem;
         list-style-position: inside;
         list-style-type: none;
+    }
+    /* footer */
+    footer {
+        background-color: #302f2e;
+        color: white;
+        padding: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .content-footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .First_Branch {
+        width: 48%;
+        order: 1;
+    }
+    .branch1 ul {
+        list-style: none;
+        line-height: 1.7em;
+    }
+    .branch1 ul li {
+        letter-spacing: 1px;
+    }
+    .Second_Branch {
+        width: 47%;
+        order: 2;
+    }
+    .branch2 ul {
+        list-style: none;
+        line-height: 1.7em;
+    }
+    .branch2 ul li {
+        letter-spacing: 1px;
+    }
+    .branch_title {
+        padding: 10px 0px;
+        color: rgb(185, 24, 24);
+    }
+    .Copyright {
+        margin: 10px auto;
+        text-align: center;
+        line-height: 1.2rem;
+        color: grey;
+    }
+    .Copyright .name {
+        color: rgb(185, 24, 24);
+    }
+    .branch1 i {
+        background-color: rgb(185, 24, 24);
+        padding: 10px;
+        margin: 5px 10px;
+        width: 40px;
+        text-align: center;
+    }
+    .branch2 i {
+        background-color: rgb(185, 24, 24);
+        padding: 10px;
+        margin: 5px 10px;
+        text-align: center;
+        width: 40px;
+        height: auto;
     }
 }
 
@@ -732,11 +837,76 @@ ul {
         letter-spacing: 1px;
         padding: 0px;
     }
-    ul {
+    .f ul li {
         font-size: 1.2rem;
         line-height: 1.9rem;
         list-style-position: unset;
         text-align: center;
+    }
+    /* footer */
+    footer {
+        background-color: #302f2e;
+        color: white;
+        padding: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .content-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .First_Branch {
+        width: 47%;
+        order: 1;
+    }
+    .branch1 ul {
+        list-style: none;
+        line-height: 1em;
+        font-size: .7em;
+    }
+    .branch1 ul li {
+        letter-spacing: 0px;
+    }
+    .Second_Branch {
+        width: 47%;
+        order: 2;
+    }
+    .branch2 ul {
+        list-style: none;
+        line-height: 1em;
+        font-size: .7em;
+    }
+    .branch2 ul li {
+        letter-spacing: 1px;
+    }
+    .branch_title {
+        padding: 10px 0px;
+        color: rgb(185, 24, 24);
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .Copyright {
+        margin: 10px auto;
+        text-align: center;
+        line-height: 1.2rem;
+        color: grey;
+    }
+    .Copyright .name {
+        color: rgb(185, 24, 24);
+    }
+    .branch1 i {
+        background-color: rgb(185, 24, 24);
+        padding: 5px;
+        margin: 5px 5px;
+        width: 30px;
+        text-align: center;
+    }
+    .branch2 i {
+        background-color: rgb(185, 24, 24);
+        padding: 5px;
+        margin: 5px 5px;
+        text-align: center;
+        width: 30px;
+        height: auto;
     }
 }
 
@@ -789,7 +959,7 @@ ul {
     }
     nav ul li {
         letter-spacing: 0.9px;
-        font-weight: 550;
+        font-weight: 510;
     }
     nav ul li {
         display: block;
@@ -801,7 +971,7 @@ ul {
         color: black;
         text-decoration: none;
         font-size: .74rem;
-        padding: 5px;
+        padding: 10px;
     }
     nav ul li a:hover {
         border: none;
@@ -843,22 +1013,6 @@ ul {
         padding: 10px 0px 0px 0px;
         font-size: .8em;
         font-weight: 550;
-    }
-    footer {
-        background-color: #302f2e;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    .content-footer h3,
-    h4 {
-        letter-spacing: 2px;
-        margin: 15px 0px;
-        font-family: 'Merriweather', serif;
-        font-size: .8rem;
-    }
-    #content-name {
-        color: rgb(211, 38, 38);
     }
     .Background_serve {
         background-image: url("IMG/house.png");
@@ -908,10 +1062,77 @@ ul {
         letter-spacing: 2px;
         padding: 0px;
     }
-    ul {
+    .f ul li {
         font-size: 1.1rem;
         line-height: 2rem;
         list-style-position: unset;
         text-align: center;
+    }
+    /* footer */
+    footer {
+        background-color: #302f2e;
+        color: white;
+        padding: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .content-footer {
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .First_Branch {
+        width: 100%;
+        order: 1;
+    }
+    .branch1 ul {
+        list-style: none;
+        line-height: 1em;
+        font-size: .7em;
+    }
+    .branch1 ul li {
+        letter-spacing: 0px;
+    }
+    .Second_Branch {
+        width: 100%;
+        order: 2;
+    }
+    .branch2 ul {
+        list-style: none;
+        line-height: 1em;
+        font-size: .7em;
+    }
+    .branch2 ul li {
+        letter-spacing: 1px;
+    }
+    .branch_title {
+        padding: 10px 0px;
+        color: rgb(185, 24, 24);
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .Copyright {
+        margin: 10px auto;
+        text-align: center;
+        line-height: 1.2rem;
+        color: grey;
+    }
+    .Copyright .name {
+        color: rgb(185, 24, 24);
+    }
+    .branch1 i {
+        background-color: rgb(185, 24, 24);
+        padding: 5px;
+        margin: 5px 5px;
+        width: 30px;
+        text-align: center;
+    }
+    .branch2 i {
+        background-color: rgb(185, 24, 24);
+        padding: 5px;
+        margin: 5px 5px;
+        text-align: center;
+        width: 30px;
+        height: auto;
     }
 }
