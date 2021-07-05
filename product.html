@@ -5,10 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="h-style.css">
 
+    <link rel="stylesheet" href="h-style.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/f8210108fd.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu').click(function() {
+                $('ul').toggleClass('show');
+            });
+
+        });
+    </script>
+    <title>G Obogne Repair Shop </title>
 </head>
 
 <body>
@@ -35,18 +53,19 @@
                     </div>
 
                 </div>
-
+                <label id="menu"><i class="fa fa-bars"></i></label>
         </header>
+
         <nav>
             <ul>
                 <li>
-                    <a href="file:///D:/WEB%20SAMPLE/G%20Obogne%20Design/index.html">HOME</a>
+                    <a href="index.html">HOME</a>
                 </li>
                 <li>
-                    <a href="file:///D:/WEB%20SAMPLE/G%20Obogne%20Design/product.html">PRODUCT</a>
+                    <a href="product.html">PRODUCT</a>
                 </li>
                 <li>
-                    <a href="file:///D:/WEB%20SAMPLE/G%20Obogne%20Design/Services.html">SERVICES</a>
+                    <a href="Services.html">SERVICES</a>
                 </li>
                 <li>
                     <a href="#">ABOUT</a>
@@ -57,16 +76,163 @@
         </nav>
         <hr>
 
+        <div class="product-title">
+            <h2>All Products</h2>
+        </div>
+        <div class="drprow">
+            <div class="drpcol">
+                <!---FOR DROPDOWN CONTENT-->
+                <div class="DropDown">
+                    <button class="drpbtn">Other Parts</button>
+                    <div class="drp_parts">
+                        <a href="#">ELECTRIC FAN</a>
+                        <a href="#">WASHING MACHINE</a>
+                        <a href="#">OTHERS</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!---FOR PAGINATION-->
+            <div class="drpcol">
+                <div class="prod_pagination">
+                    <ul>
+                        <li>
+                            <a href="product.html" class="active">1</a>
+                        </li>
+                        <li>
+                            <a href="product2.html">2</a>
+                        </li>
+                        <li>
+                            <a href="">3</a>
+                        </li>
+                        <li>
+                            <a href="">4</a>
+                        </li>
+                        <li>
+                            <a href="">5</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!---FOR ALL PRODUCTS-->
+
+        <div class="categories">
+            <div class="container_prod">
+                <div class="prod_row">
+
+                    <div class="prod_col">
+                        <img src="IMG/PARTS/capacitor.jpg" alt="capacitor">
+                        <h4>Capacitor</h4>
+                        <p>&#8369;150</p>
+                    </div>
+
+                    <div class="prod_col">
+                        <img src="IMG/PARTS/shafting.jpg" alt="shafting">
+                        <h4>Shafting</h4>
+                        <p>&#8369;100</p>
+                    </div>
+                    <div class="prod_col">
+                        <img src="IMG/PARTS/knob.jpg" alt="knob">
+                        <h4>Knob</h4>
+                        <p>&#8369;20</p>
+                    </div>
+
+                    <div class="prod_col">
+                        <img src="img/PARTS/neck.webp" alt="neck">
+                        <h4>Neck</h4>
+                        <p>&#8369;150</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="container_prod">
+                <div class="prod_row">
+
+                    <div class="prod_col">
+                        <img src="IMG/PARTS/capacitor.jpg" alt="capacitor">
+                        <h4>Capacitor</h4>
+                        <p>&#8369;150</p>
+                    </div>
+
+                    <div class="prod_col">
+                        <img src="IMG/PARTS/shafting.jpg" alt="shafting">
+                        <h4>Shafting</h4>
+                        <p>&#8369;100</p>
+                    </div>
+                    <div class="prod_col">
+                        <img src="IMG/PARTS/knob.jpg" alt="knob">
+                        <h4>Knob</h4>
+                        <p>&#8369;20</p>
+                    </div>
+
+                    <div class="prod_col">
+                        <img src="img/PARTS/neck.webp" alt="neck">
+                        <h4>Neck</h4>
+                        <p>&#8369;150</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
 
         <footer>
             <div class="content-footer">
-                <h3>| |Gogon Centro Virac, Catanduanes| |</h3>
-                <h4>Developers: <span id="content-name">Jerome Obogne</span> <img src="IMG/Pic11.png" width="30" height="30"></h4>
+
+                <div class="First_Branch">
+                    <h2 class="branch_title">Address</h2>
+                    <hr>
+                    <div class="branch1">
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i>Gogon Centro Virac, Catanduanes</li>
+                            <li><i class="fas fa-envelope-square"></i>J.obogne2@gmail.com</li>
+                            <li><i class="fas fa-phone-alt"></i>09217720598</li>
+                            <li><i class="fas fa-male"></i>Look for: Jerome Obogne</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="Second_Branch">
+                    <h2 class="branch_title">Other Branch</h2>
+                    <hr>
+                    <div class="branch2">
+                        <ul>
+                            <li><i class="fas fa-street-view"></i>54 Gen. Tirona Street</li>
+                            <li><i class="fas fa-map-marker-alt"></i>Bagong Barrio Caloocan City</li>
+                            <li><i class="fas fa-phone-alt"></i>09277858175</li>
+                            <li><i class="fas fa-male"></i>Look for: Jonathan Obogne</li>
+                        </ul>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
 
             </div>
+            <div class="Copyright">
+                <h5>Developer: <span class="name">Jerome Obogne</span></h5>
+                <h6>&copy;2021 Obogne property</h6>
+            </div>
         </footer>
-
         </div>
+
 </body>
 
 </html>
