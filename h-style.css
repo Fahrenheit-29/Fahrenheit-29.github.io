@@ -158,10 +158,6 @@ nav ul li a:hover {
     transform: translateY(-10px);
 }
 
-.img1:nth-child(2):hover {
-    transform: translateY(20px);
-}
-
 
 /*  Service Page2*/
 
