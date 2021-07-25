@@ -25,6 +25,15 @@
 
         });
     </script>
+    <script type="text/javascript">
+        function disableBack() {
+            window.history.forward();
+        }
+        setTimeout("disableBack()", 0);
+        window.onunload = function() {
+            null
+        };
+    </script>
     <title>G Obogne Repair Shop </title>
 </head>
 
@@ -70,7 +79,7 @@
                     <a href="Services.html">SERVICES</a>
                 </li>
                 <li>
-                    <a href="#">ABOUT</a>
+                    <a href="About.html">ABOUT</a>
                 </li>
 
 
