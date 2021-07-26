@@ -1293,7 +1293,7 @@ footer {
         align-items: center;
     }
     .Bg_image3 img {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
         border-radius: 50%;
     }
